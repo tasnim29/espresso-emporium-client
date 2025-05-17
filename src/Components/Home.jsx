@@ -9,7 +9,7 @@ const Home = () => {
     <div>
       <Hero></Hero>
       <div className="  bg-center" style={{ backgroundImage: `url(${bg1})` }}>
-        <section className="max-w-5xl mx-auto  ">
+        <section className="max-w-5xl mx-auto px-5">
           <Quality></Quality>
           <Products></Products>
         </section>

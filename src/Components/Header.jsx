@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../assets/Group 1.png";
-import { NavLink } from "react-router";
+import { Link, NavLink } from "react-router";
 
 const Header = () => {
   return (
@@ -38,14 +38,19 @@ const Header = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <NavLink className=" text-2xl font bold text-white">
+              <NavLink to="/users" className=" text-2xl font bold text-white">
                 Users
               </NavLink>
             </li>
           </ul>
         </div>
-        <div className="navbar-end">
-          <a className="btn">Sign In</a>
+        <div className="navbar-end space-x-4">
+          <Link to="/signin" className="btn">
+            Sign In
+          </Link>
+          <Link to="/signup" className="btn">
+            Sign Up
+          </Link>
         </div>
       </div>
     </div>

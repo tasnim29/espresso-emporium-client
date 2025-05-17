@@ -11,6 +11,9 @@ const CoffeeDetails = () => {
         Back To Home
       </Link>
       <div className="max-w-5xl mx-auto my-20">
+        <h1 className="text-7xl text-secondary font-bold text-center mb-5 ">
+          Your Favorite Coffee
+        </h1>
         <div className="flex gap-32 items-center shadow-2xl bg-gray-300 justify-center py-8">
           {/* image */}
           <div>
